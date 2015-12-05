@@ -17,7 +17,7 @@ public class PennyLoan
         
         public double paymentPerMonth() {
                 double r = (double) (amount/100)/ (double) length;
-		Math.round((r*100.0)/100.0);
-                return r ;
+		rounded = Math.round((r*100.0)/100.0);
+                return rounded ;
         }
 }
