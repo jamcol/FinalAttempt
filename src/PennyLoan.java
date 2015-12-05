@@ -1,5 +1,5 @@
 
-import java.lang;
+import java.lang.Math;
 public class PennyLoan 
 {
         private int amount ; // Amount of loan in pence
